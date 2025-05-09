@@ -1,0 +1,20 @@
+neo4j>=4.0                 # to connect to your Neo4j database
+pandas>=1.1                # for DataFrame manipulations
+networkx>=2.5              # for graph construction & PageRank
+torch>=1.10                # PyTorch core
+torch-geometric>=2.3.0     # PyG core link-prediction layers
+torch-scatter>=2.0.9       # dependency of torch-geometric
+torch-sparse>=0.6.17       # dependency of torch-geometric
+scikit-learn>=0.24         # for ROC/AUC metrics
+matplotlib>=3.3            # for plotting loss & ROC curves
+
+# Note on PyG/Torch-Scatter/Sparse versions. 
+# Depending on your CUDA/PyTorch setup you may need to adjust versions or use the special PyG install command to pull the correct binary wheels.
+
+
+
+
+
+
+
+
