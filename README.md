@@ -1,4 +1,4 @@
-Disease–Gene Link Prediction with GCNs on Hetionet
+Disease–Gene Link Prediction with Graph Mining and Graph Neural Network on Hetionet
 
 A proof-of-concept Graph Convolutional Network (GCN) that mines Hetionet’s disease–gene subgraph to predict novel associations.
 
