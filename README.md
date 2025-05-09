@@ -88,7 +88,9 @@ and you’ll have the full Hetionet graph ready to query.
 #Repository Structure
 
 ├── disease_gene_link_prediction.ipynb   # Main notebook
+
 ├── requirements.txt         # Python deps (torch, torch-geometric, neo4j, networkx…)
+
 └── README.md                # This file
 ---
 
