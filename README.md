@@ -35,17 +35,19 @@ Setup Neo4j
 If you’d rather not import a CSV dump yourself, you can use the publicly-hosted Hetionet Neo4j image like I did:
 
 # Pull the pre-built Hetionet v1.0 + Neo4j 3.5.12 image:
-
+```bash
 docker pull dhimmel/hetionet:hetionet-v1.0_neo4j-3.5.12
+```
 
 # Run it under the name “hetionet-container”:
-
+```bash
 docker run \
   --name hetionet-container \
   --rm \
   --publish 7474:7474 \
   --publish 7687:7687 \
   dhimmel/hetionet:hetionet-v1.0_neo4j-3.5.12
+```
 
  This image bundles Hetionet v1.0 in Neo4j 3.5.12. We recommend installing Neo4j 3.5.12 locally (or via Docker) for full compatibility with this release.
 
